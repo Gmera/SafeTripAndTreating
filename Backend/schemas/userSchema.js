@@ -10,5 +10,5 @@ const userSchema = new Schema({
     password: {type: String, required: true} // this needs to be hashed
 });
 
-const userModule = mongoose.model('userModule',userSchema);
+const userModule = mongoose.model('user',userSchema);
 module.exports = userModule;
